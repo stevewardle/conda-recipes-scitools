@@ -1,0 +1,35 @@
+package:
+    name: um_utils
+    version: 1.2
+
+source:
+    fn: um_utils.tar.gz
+    url: https://github.com/SciTools/mule/releases/download/v1.2/um_utils.tar.gz
+    md5: 6edf36f4bda517800726760aa515d2ddab2d0162
+
+build:
+    number: 0
+
+requirements:
+    build:
+        - python
+        - numpy x.x
+        - setuptools
+        - mule
+    run:
+        - python
+        - numpy x.x
+        - mule
+
+test:
+    imports:
+        - um_utils
+
+about:
+    home: https://github.com/SciTools/mule
+    license: BSD-3
+    summary: UM file utilities based on Mule API
+
+extra:
+    recipe-maintainers:
+        - stevewardle
