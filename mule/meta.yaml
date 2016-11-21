@@ -4,7 +4,7 @@ package:
 
 source:
     fn: mule.tar.gz
-    url: https://github.com/SciTools/mule
+    url: https://github.com/SciTools/mule/releases/download/vn1.2/mule.tar.gz
 
 build:
     number: 0
