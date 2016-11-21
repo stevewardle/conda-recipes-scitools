@@ -4,7 +4,7 @@ package:
 
 source:
     fn: um_utils.tar.gz
-    url: https://github.com/SciTools/mule/releases/download/v1.2/um_utils.tar.gz
+    url: https://github.com/SciTools/um_utils
     md5: 6edf36f4bda517800726760aa515d2ddab2d0162
 
 build:
@@ -26,7 +26,7 @@ test:
         - um_utils
 
 about:
-    home: https://github.com/SciTools/mule
+    home: https://github.com/SciTools/um_utils
     license: BSD-3
     summary: UM file utilities based on Mule API
 
