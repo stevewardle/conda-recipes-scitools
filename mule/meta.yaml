@@ -5,7 +5,6 @@ package:
 source:
     fn: mule.tar.gz
     url: https://github.com/SciTools/mule
-    md5: 5d4abc2ffd891fe5dbc2f36e989e8317dfbb5dc1
 
 build:
     number: 0

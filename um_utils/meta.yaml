@@ -5,7 +5,6 @@ package:
 source:
     fn: um_utils.tar.gz
     url: https://github.com/SciTools/um_utils
-    md5: 6edf36f4bda517800726760aa515d2ddab2d0162
 
 build:
     number: 0
