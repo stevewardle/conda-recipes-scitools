@@ -1,10 +1,10 @@
 package:
-    name: mule
+    name: um_packing
     version: 2017.06.1
 
 source:
-    fn: mule.tar.gz
-    url: https://github.com/SciTools/mule/releases/download/2017.06.1/mule.tar.gz
+    fn: um_packing.tar.gz
+    url: https://github.com/SciTools/um_packing/releases/download/2017.06.1/um_packing.tar.gz
 
 build:
     number: 0
@@ -16,20 +16,20 @@ requirements:
         - python
         - numpy x.x
         - setuptools
-        - um_packing
+        - shumlib
     run:
         - python
         - numpy x.x
-        - um_packing
+        - shumlib
 
 test:
     imports:
-        - mule
+        - um_packing
 
 about:
-    home: https://github.com/SciTools/mule
+    home: https://github.com/SciTools/um_packing
     license: BSD-3
-    summary: Mule API for working with UM FieldsFiles and variants thereof
+    summary: Extension module for Shumlib (UM) based packing
 
 extra:
     recipe-maintainers:

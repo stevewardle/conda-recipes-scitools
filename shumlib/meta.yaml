@@ -1,0 +1,30 @@
+package:
+    name: shumlib
+    version: 2017.06.1
+
+source:
+    fn: shumlib.tar.gz
+    url: https://github.com/SciTools/shumlib/releases/download/2017.06.1/shumlib.tar.gz
+
+build:
+    number: 0
+    skip: True # [py3k or win]
+    script: make -f make/vm-x86-gfortran-gcc.mk 
+
+requirements:
+    build:
+
+    run:
+
+test:
+    script:
+        - make -f make/vm-x86-gfortran-gcc.mk test
+
+about:
+    home: https://github.com/SciTools/shumlib
+    license: BSD-3
+    summary: Shumlib (Shared UM Libraries)
+
+extra:
+    recipe-maintainers:
+        - stevewardle
